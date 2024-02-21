@@ -4,12 +4,16 @@
   "description": "Projeto realizado durante a jornada Backend da Ocean (Fevereiro de 2024). Projeto com NodeJS e Express.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "Ludmylla Martins Caetano",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
